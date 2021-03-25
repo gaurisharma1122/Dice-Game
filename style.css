@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    margin: 40px auto;
+    font-size: 5rem;
+    color: white;
+}
+.dice-area{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+p{
+    font-size: 2.5rem;
+    color: white;
+}
+img{
+    width: 320px;
+}
+#btn{
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 40px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #E74C3C ;
+    transition: 0.3s ease;
+}
